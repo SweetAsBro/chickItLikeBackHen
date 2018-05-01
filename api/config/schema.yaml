@@ -1,0 +1,8 @@
+# api/config/schema.yaml
+# The list of types and properties we want to use
+types:
+    # Parent class of Person
+    SportsTeam:
+        properties:
+            name: ~
+            identifier: {range: "Text"} 
