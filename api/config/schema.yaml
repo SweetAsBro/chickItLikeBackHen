@@ -1,8 +1,25 @@
 # api/config/schema.yaml
 # The list of types and properties we want to use
 types:
-    # Parent class of Person
-    SportsTeam:
-        properties:
-            name: ~
-            identifier: {range: "Text"} 
+  Team:
+    properties:
+      name: ~
+      identifier: {range: "Text"}
+  Match:
+    properties:
+      homeTeam: {range: Team}
+      awayTeam: {range: Team, }
+      startDate: {range: "DateTime"}
+      group: {range: Group, cardinality: "(0..1)"}
+  Tournament:
+    properties:
+      name: {range: "Text"}
+  Group:
+    properties:
+      name: {range: "Text"}
+      tournament: {range: Tournament}
+  MatchDay:
+    properties:
+      name: {range: "Text"}
+      tournament: {range: Tournament}
+

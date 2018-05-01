@@ -16,6 +16,6 @@ api_platform:
             enabled: true
             varnish_urls: ['%env(VARNISH_URL)%']
         max_age: 0
-        shared_max_age: 3600
+        shared_max_age: 0
         vary: ['Content-Type', 'Authorization']
         public: true
