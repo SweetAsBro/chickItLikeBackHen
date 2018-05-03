@@ -11,6 +11,8 @@ types:
       awayTeam: {range: Team, }
       startDate: {range: "DateTime"}
       group: {range: Group, cardinality: "(0..1)"}
+      goalsHome: {range: "integer"}
+      goalsAway: {range: "integer"}
   Tournament:
     properties:
       name: {range: "Text"}

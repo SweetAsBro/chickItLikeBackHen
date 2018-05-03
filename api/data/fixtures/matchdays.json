@@ -1,0 +1,37 @@
+[
+  {
+    "name":"1. Gruppenspieltag",
+    "groups":[
+      {
+        "group":"Gruppe A",
+        "matches":[
+          {
+            "home":"RUS",
+            "away":"SAU",
+            "start":"2018-06-14 17:00"
+          },
+          {
+            "home":"EGY",
+            "away":"URU",
+            "start":"2018-06-15 14:00"
+          }
+        ]
+      },
+      {
+        "group":"Gruppe B",
+        "matches":[
+          {
+            "home":"MAR",
+            "away":"IRN",
+            "start":"2018-06-15 17:00"
+          },
+          {
+            "home":"POR",
+            "away":"SPA",
+            "start":"2018-06-15 20:00"
+          }
+        ]
+      }
+    ]
+  }
+]

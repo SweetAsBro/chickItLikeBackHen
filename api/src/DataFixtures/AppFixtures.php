@@ -10,6 +10,8 @@ namespace App\DataFixtures;
 
 
 use App\Entity\Group;
+use App\Entity\Match;
+use App\Entity\MatchDay;
 use App\Entity\Team;
 use App\Entity\Tournament;
 use Doctrine\Bundle\FixturesBundle\Fixture;
@@ -30,7 +32,6 @@ class AppFixtures extends Fixture
                 $group = new Group();
                 $group->setName($fGroup->name);
                 $group->setTournament($tournament);
-                $manager->persist($group);
 
                 foreach ($fGroup->teams as $fTeam){
                     $team = new Team();
@@ -39,9 +40,37 @@ class AppFixtures extends Fixture
                     $group->addTeam($team);
                     $manager->persist($team);
                 }
+                $manager->persist($group);
             }
 
+            $manager->flush();
+
+            foreach ($fTournament->matchdays as $fMatchday) {
+                $matchDay = new MatchDay();
+                $matchDay->setName($fMatchday->name);
+                $matchDay->setTournament($tournament);
+
+                foreach ($fMatchday->groups as $fGroup){
+                    $group = $manager->getRepository("App\Entity\Group")->findOneBy(["name"=>$fGroup->group]);
+
+                    foreach ($fGroup->matches as $fMatch) {
+                        $match = new Match();
+                        $home = $manager->getRepository("App\Entity\Team")->findOneBy(["identifier"=>$fMatch->home]);
+                        $away = $manager->getRepository("App\Entity\Team")->findOneBy(["identifier"=>$fMatch->away]);
+                        $match->setHomeTeam($home);
+                        $match->setAwayTeam($away);
+                        $match->setGroup($group);
+                        $match->setMatchDay($matchDay);
+                        $match->setStartDate(new \DateTime($fMatch->start));
+                        $manager->persist($match);
+                    }
+
+                }
+                $manager->persist($matchDay);
+
+            }
         }
+
 
         $manager->flush();
     }
