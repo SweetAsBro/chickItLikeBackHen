@@ -206,6 +206,14 @@
             ]
           }
         ]
+      },
+      {
+        "name":"2. Gruppenspieltag",
+        "groups":[]
+      },
+      {
+        "name":"3. Gruppenspieltag",
+        "groups":[]
       }
     ]
   }
