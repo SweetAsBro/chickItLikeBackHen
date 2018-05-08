@@ -204,16 +204,349 @@
                 "start":"2018-06-15 20:00"
               }
             ]
-          }
+          },
+          {
+            "group":"Gruppe C",
+            "matches":[
+              {
+                "home":"FRA",
+                "away":"AUS",
+                "start":"2018-06-16 12:00"
+              },
+              {
+                "home":"PER",
+                "away":"DEN",
+                "start":"2018-06-16 18:00"
+               }
+             ]
+           },
+           {
+             "group":"Gruppe D",
+             "matches":[
+               {
+                "home":"ARG",
+                "away":"ISL",
+                "start":"2018-06-16 15:00"
+               },
+               {
+                "home":"HRV",
+                "away":"NIG",
+                "start":"2018-06-16 21:00"
+               }
+             ]
+           },
+           {
+             "group":"Gruppe E",
+             "matches":[
+               {
+                "home":"CRC",
+                "away":"SRB",
+                "start":"2018-06-17 14:00"
+               },
+               {
+                "home":"BRA",
+                "away":"CHE",
+                "start":"2018-06-17 20:00"
+               }
+             ]
+           },
+           {
+             "group":"Gruppe F",
+             "matches":[
+               {
+                "home":"GER",
+                "away":"MEX",
+                "start":"2018-06-17 17:00"
+               },
+               {
+                "home":"SWE",
+                "away":"KOR",
+                "start":"2018-06-18 14:00"
+               }
+             ]
+           },
+           {
+             "group":"Gruppe G",
+             "matches":[
+               {
+                "home":"BEL",
+                "away":"PAN",
+                "start":"2018-06-18 17:00"
+               },
+               {
+                "home":"TUN",
+                "away":"ENG",
+                "start":"2018-06-18 20:00"
+               }
+             ]
+           },
+           {
+             "group":"Gruppe H",
+             "matches":[
+               {
+                "home":"COL",
+                "away":"JPN",
+                "start":"2018-06-19 14:00"
+               },
+               {
+                "home":"POL",
+                "away":"SEN",
+                "start":"2018-06-19 17:00"
+               }
+             ]
+           },   
+        ]
+      },
+
+      {
+        "name":"2. Gruppenspieltag",
+        "groups":[
+          {
+            "group":"Gruppe A",
+            "matches":[
+              {
+                "home":"RUS",
+                "away":"EGY",
+                "start":"2018-06-19 20:00"
+              },
+              {
+                "home":"URU",
+                "away":"SAU",
+                "start":"2018-06-20 17:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe B",
+            "matches":[
+              {
+                "home":"POR",
+                "away":"MAR",
+                "start":"2018-06-20 14:00"
+              },
+              {
+                "home":"IRN",
+                "away":"ESP",
+                "start":"2018-06-20 20:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe C",
+            "matches":[
+              {
+                "home":"DEN",
+                "away":"AUS",
+                "start":"2018-06-21 14:00"
+              },
+              {
+                "home":"FRA",
+                "away":"PER",
+                "start":"2018-06-21 17:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe D",
+            "matches":[
+              {
+                "home":"ARG",
+                "away":"HRV",
+                "start":"2018-06-21 20:00"
+              },
+              {
+                "home":"NIG",
+                "away":"ISL",
+                "start":"2018-06-22 17:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe E",
+            "matches":[
+              {
+                "home":"BRA",
+                "away":"CRC",
+                "start":"2018-06-22 14:00"
+              },
+              {
+                "home":"SRB",
+                "away":"CHE",
+                "start":"2018-06-22 20:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe F",
+            "matches":[
+              {
+                "home":"KOR",
+                "away":"MEX",
+                "start":"2018-06-23 17:00"
+              },
+              {
+                "home":"GER",
+                "away":"SWE",
+                "start":"2018-06-23 20:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe G",
+            "matches":[
+              {
+                "home":"BEL",
+                "away":"TUN",
+                "start":"2018-06-23 14:00"
+              },
+              {
+                "home":"ENG",
+                "away":"PAN",
+                "start":"2018-06-24 14:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe H",
+            "matches":[
+              {
+                "home":"JPN",
+                "away":"SEN",
+                "start":"2018-06-24 17:00"
+              },
+              {
+                "home":"POL",
+                "away":"COL",
+                "start":"2018-06-24 20:00"
+              }
+            ]
+          },
         ]
       },
       {
-        "name":"2. Gruppenspieltag",
-        "groups":[]
-      },
-      {
         "name":"3. Gruppenspieltag",
-        "groups":[]
+        "groups":[
+          {
+            "group":"Gruppe A",
+            "matches":[
+              {
+                "home":"URU",
+                "away":"RUS",
+                "start":"2018-06-25 16:00"
+              },
+              {
+                "home":"SAU",
+                "away":"EGY",
+                "start":"2018-06-25 16:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe B",
+            "matches":[
+              {
+                "home":"ESP",
+                "away":"MAR",
+                "start":"2018-06-25 20:00"
+              },
+              {
+                "home":"IRN",
+                "away":"POR",
+                "start":"2018-06-25 20:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe C",
+            "matches":[
+              {
+                "home":"DEN",
+                "away":"FRA",
+                "start":"2018-06-26 16:00"
+              },
+              {
+                "home":"AUS",
+                "away":"PER",
+                "start":"2018-06-26 16:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe D",
+            "matches":[
+              {
+                "home":"ISL",
+                "away":"HRV",
+                "start":"2018-06-26 20:00"
+              },
+              {
+                "home":"NIG",
+                "away":"ARG",
+                "start":"2018-06-26 20:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe E",
+            "matches":[
+              {
+                "home":"SRB",
+                "away":"BRA",
+                "start":"2018-06-27 20:00"
+              },
+              {
+                "home":"CHE",
+                "away":"CRC",
+                "start":"2018-06-27 20:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe F",
+            "matches":[
+              {
+                "home":"MEX",
+                "away":"SWE",
+                "start":"2018-06-27 16:00"
+              },
+              {
+                "home":"KOR",
+                "away":"GER",
+                "start":"2018-06-27 16:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe G",
+            "matches":[
+              {
+                "home":"ENG",
+                "away":"BEL",
+                "start":"2018-06-28 20:00"
+              },
+              {
+                "home":"PAN",
+                "away":"TUN",
+                "start":"2018-06-28 20:00"
+              }
+            ]
+          },
+          {
+            "group":"Gruppe H",
+            "matches":[
+              {
+                "home":"SEN",
+                "away":"COL",
+                "start":"2018-06-28 16:00"
+              },
+              {
+                "home":"JPN",
+                "away":"POL",
+                "start":"2018-06-28 16:00"
+              }
+            ]
+          },   
+        ]
       }
     ]
   }
